@@ -1,29 +1,32 @@
 fun main(){
-    var greeting="Hello Imali"
-    println(greeting)
-    var num1=610
-    var num2=9
-    var modulus=num1%num2
+    name()
+    modulus()
+    add()
+    interestingFact()
+}
+    fun name(){
+        println ("hello Imali")
+    }
+fun modulus(){
+    var a=10
+    var b=3
+    var modulus=a%b
     println(modulus)
 
+}
+fun add (){
+    var num1=30
+    var num2=40
+    var num3=50
+    var num4=60
+    var sum=num1+num2+num3+num4
+    println(sum)
+}
+fun interestingFact(){
+    println("I have golden teeth")
 
-    var result=addition(240,120,29,89)
-    println(result)
-
-    var interestingFact="funny"
-    println(interestingFact)
 
 }
-fun addition (num1:Int,num2:Int,num3:Int,num4:Int):Int{
-var addition=(num1+num2+num3+num4)
-return addition
-
-
-}
-
-
-
-
 
 
 
