@@ -1,32 +1,23 @@
 fun main(){
-    name()
-    modulus()
-    add()
-    interestingFact()
-}
-    fun name(){
-        println ("hello Imali")
-    }
-fun modulus(){
-    var a=10
-    var b=3
-    var modulus=a%b
-    println(modulus)
-
-}
-fun add (){
-    var num1=30
-    var num2=40
-    var num3=50
-    var num4=60
-    var sum=num1+num2+num3+num4
-    println(sum)
-}
-fun interestingFact(){
-    println("I have golden teeth")
+println( multiplication(20,40))
+    println(subtraction(700,250))
 
 
+   }
+
+    fun multiplication(a:Int,b:Int):Int{
+        var multiplication=a*b
+        return multiplication
+
+   }
+fun subtraction(c:Int,d:Int):Int{
+    var subtraction=c-d
+    return subtraction
 }
+
+
+
+
 
 
 
